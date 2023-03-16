@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <stdio.h.>
 /**
- * main - Entry point
- * return: Always 0 (sucsessful)
+ * *Description: main - Print on using the printf function
+ * *Return: Always 0 if it success
  */
 int main(void)
 {
