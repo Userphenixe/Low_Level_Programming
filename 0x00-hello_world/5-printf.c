@@ -1,4 +1,4 @@
-#include <stdio.h.>
+#include <stdio.h>
 /**
  * *Description: main - Print on using the printf function
  * *Return: Always 0 if it success
