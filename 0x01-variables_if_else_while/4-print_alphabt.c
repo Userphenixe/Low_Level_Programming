@@ -8,14 +8,13 @@
  */
 int main(void)
 {
-int i;
-	char alp[i] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (i != 5 && i != 17)
+		if (i != 101 && i != 113)
 		{
-			putchar(alp[i]);
+			putchar(i);
 		}
 	}
 	putchar('\n');
