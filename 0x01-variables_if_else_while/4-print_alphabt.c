@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+int i;
+	char alp[i] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0; i < 26; i++)
 	{
