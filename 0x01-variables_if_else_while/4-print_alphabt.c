@@ -8,11 +8,12 @@
  */
 int main(void)
 {
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 97; i < 123; i++)
+	for (i = 0; i < 26; i++)
 	{
-		if (i != 101 && i != 133)
+		if (i != 5 && i != 17)
 		{
 			putchar(i);
 		}
