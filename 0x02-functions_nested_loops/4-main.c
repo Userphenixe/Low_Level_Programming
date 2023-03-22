@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <ctype.h>
+#include "my_functions.h"
 /**
  * main - check the code.
  *
@@ -9,13 +10,13 @@ int main(void)
 {
 int r;
 
-r = _isalphat('H');
+r = _isalpha('H');
 _putchar(r + '0');
-r = _isalphat('o');
+r = _isalpha('o');
 _putchar(r + '0');
-r = _isalphat(108);
+r = _isalpha(108);
 _putchar(r + '0');
-r = _isalphat(';');
+r = _isalpha(';');
 _putchar(r + '0');
 _putchar('\n');
 return (0);
